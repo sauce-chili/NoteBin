@@ -35,3 +35,16 @@ For this, 2 types of pools of free (pre-generated) URLs are used: local and glob
   <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
 </p>
 
+## Scripts
+
+### Running the Project with Docker Compose
+
+To simplify the process of running the project, we use `docker-compose`. Follow these steps to get started:
+
+1. **Build the Docker images (if not already built):**
+   ```bash
+   docker-compose build
+
+2. **Start the containers:**
+   ```bash
+   docker-compose up
