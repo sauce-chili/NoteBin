@@ -1,6 +1,6 @@
 [submodule "notebin-service"]
     path = notebin-service
-    url = https://github.com/KachanVlg/NoteSharing.git
+    url = https://github.com/sauce-chili/NoteBin-Service.git
     branch = master
 [submodule "user-service"]
     path = user-service
