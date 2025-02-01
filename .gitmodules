@@ -7,6 +7,6 @@
     url = https://github.com/sauce-chili/NoteBin-UserService.git
     branch = master
 [submodule "frontend"]
-    path = frontend
-    url = https://github.com/groza1338/NoteBin-frontend.git
+	path = frontend
+	url = https://github.com/groza1338/NoteBin-frontend.git
     branch = main
