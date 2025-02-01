@@ -5,7 +5,7 @@
 [submodule "user-service"]
     path = user-service
     url = https://github.com/sauce-chili/NoteBin-UserService.git
-    branch = main
+    branch = master
 [submodule "frontend"]
     path = frontend
     url = https://github.com/groza1338/NoteBin-frontend.git
