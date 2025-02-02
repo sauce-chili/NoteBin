@@ -40,3 +40,7 @@ services:
     image: redis/redis-stack:latest
     ports:
       - '6379:6379'
+  frontend:
+    build: ./frontend/frontend
+    ports: 
+      - '3000:80'
