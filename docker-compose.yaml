@@ -1,5 +1,11 @@
 version: '3'
 services:
+  frontend:
+    build: ./frontend/frontend
+    ports:
+      - '3000:80'
+    depends_on:
+      - notebin-service
   notebin-service:
     build: ./notebin-service
     ports:
@@ -40,7 +46,3 @@ services:
     image: redis/redis-stack:latest
     ports:
       - '6379:6379'
-  frontend:
-    build: ./frontend/frontend
-    ports: 
-      - '3000:80'
